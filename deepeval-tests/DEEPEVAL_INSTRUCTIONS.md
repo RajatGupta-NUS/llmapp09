@@ -49,8 +49,9 @@
   # 1. Install dependencies
   pip install -r requirements.txt
 
-  # 2. Set OpenAI API key (used as the evaluation judge LLM)
-  export OPENAI_API_KEY="your-openai-api-key"
+  # 2. Set Ollama credentials (used by the API and evaluation judge)
+  export OLLAMA_API_KEY="your-ollama-api-key"
+  export OLLAMA_BASE_URL="https://ollama.com"
 
   # 3. Make sure the Spring Boot app is running on localhost:8080
 
